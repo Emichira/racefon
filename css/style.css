@@ -26,14 +26,14 @@
 -------------------------- */
 
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,500,700|Montserrat:400,500,700');
-@import 'css/bootstrap.min.css';
-@import 'css/animate.css';
-@import 'css/magnific-popup.css';
-@import 'css/owl.carousel.min.css';
-@import 'css/slick.css';
-@import 'css/font-awesome.min.css';
-@import 'css/themify-icons.css';
-@import 'css/ionicons.min.css';
+@import 'bootstrap.min.css';
+@import 'animate.css';
+@import 'magnific-popup.css';
+@import 'owl.carousel.min.css';
+@import 'slick.css';
+@import 'font-awesome.min.css';
+@import 'themify-icons.css';
+@import 'ionicons.min.css';
 
 /* --------------------------
 :: 1.0 Base CSS Start
@@ -1305,3 +1305,24 @@ p {
     text-align: center;
 }
 /* align content center section end */
+
+.subscribe-button > a {
+    color: #fff;
+    font-weight: 500;
+    display: inline-block;
+    height: 50px;
+    min-width: 178px;
+    line-height: 46px;
+    text-align: center;
+    border-radius: 24px 24px 24px 0px;
+    background: #a883e9;
+}
+
+.subscribe-button > a:hover {
+    background: #fb397d;
+    color: #fff;
+    border-color: transparent;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
