@@ -67,12 +67,12 @@ h6 {
 }
 
 .section_padding_100_50 {
-    padding-top: 100px;
+    padding-top: 120px;
     padding-bottom: 50px;
 }
 
 .section_padding_100_70 {
-    padding-top: 100px;
+    padding-top: 120px;
     padding-bottom: 70px;
 }
 
@@ -1296,4 +1296,8 @@ p {
     margin-bottom: 0;
 }
 
-/* spinning ball section */
+/* align content center section */
+.senta{
+    text-align: center;
+}
+/* align content center section end */
