@@ -60,6 +60,10 @@ h6 {
     color: #000;
     line-height: 1.2;
 }
+.section_padding_100_100 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
 
 .section_padding_100 {
     padding-top: 120px;
